@@ -9,6 +9,7 @@
 import UIKit
 
 class ToDoListTableViewController: UITableViewController{
+    @IBOutlet weak var gdgdh: UITableViewCell!
     
     var toDoItems: NSMutableArray = []
     
